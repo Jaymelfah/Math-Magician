@@ -2,13 +2,15 @@
 
 # Math Magician
 In this project I built a calculator app called Math magicians with React components, React State and React props. I 
-added a math logic to make the calculator component work as desired.
+added a math logic to make the calculator component work as desired. I also refactored the class Calculator components to 
+hooks.
 
  ## Learning objectives
 - Use React components.
 - Use React props.
 - Use React state.
 - Use Events in a React App
+- Use React Hooks
 
 ## Built With
 
