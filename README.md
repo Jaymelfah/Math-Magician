@@ -1,12 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Math Magician
-In this project I built a calculator app called Math magicians with React components, React State and React props.
+In this project I built a calculator app called Math magicians with React components, React State and React props. I 
+added a math logic to make the calculator component work as desired.
 
  ## Learning objectives
 - Use React components.
 - Use React props.
 - Use React state.
+- Use Events in a React App
 
 ## Built With
 
@@ -48,7 +50,6 @@ Contributions, issues and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
 
 ## 📝 License
 
