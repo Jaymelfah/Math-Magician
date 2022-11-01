@@ -5,6 +5,10 @@ body {
   width: 100%;
 }
 
+.flex {
+  display: flex;
+}
+
 .allcontainer {
   width: 100vw;
 }
@@ -21,7 +25,6 @@ body {
 }
 
 .display {
-  display: flex;
   justify-content: flex-end;
   align-items: center;
   background-color: rgb(133, 134, 147);
@@ -59,7 +62,6 @@ body {
 }
 
 .Nav-bar {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #0859fd;
@@ -95,7 +97,6 @@ body {
 }
 
 .calc {
-  display: flex;
   justify-content: space-around;
 }
 
@@ -104,7 +105,6 @@ body {
 }
 
 .quotes-cont {
-  display: flex;
   flex-direction: column;
   gap: 10px;
   width: 60%;
@@ -112,7 +112,6 @@ body {
 }
 
 .quotation {
-  display: flex;
   justify-content: center;
   align-items: center;
 }

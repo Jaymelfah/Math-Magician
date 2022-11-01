@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <>
-    <div className="Nav-bar">
+    <div className="Nav-bar flex">
       <div className="Logo">
         <span>Math Magicians</span>
       </div>

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Quotes = () => (
   <>
-    <div className="allcontainer quotation">
-      <div className="quotes-cont">
+    <div className="allcontainer quotation flex">
+      <div className="quotes-cont flex">
         <p>
           Pure mathematics is, in its way, the poetry of logical ideas.
           <strong>— Albert Einstein, German theoretical physicist</strong>

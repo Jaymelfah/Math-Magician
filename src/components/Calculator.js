@@ -15,12 +15,12 @@ const Calculator = () => {
 
   return (
     <>
-      <div className="allcontainer calc">
+      <div className="allcontainer calc flex">
         <div className="calc-header">
           <h2>Lets do some Math!</h2>
         </div>
         <div className="container">
-          <div className="display">
+          <div className="display flex">
             <span>
               { currstate.total }
               { currstate.operation }
