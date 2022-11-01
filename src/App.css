@@ -1,12 +1,12 @@
-.App {
-  text-align: center;
-}
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.allcontainer {
+  width: 100vw;
 }
 
 .container {
@@ -56,4 +56,79 @@ body {
 
 .btn:hover {
   background-color: #d1d1d1;
+}
+
+.Nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0859fd;
+  padding: 1rem;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  border-right: 2px solid #fff;
+  padding-right: 0.8rem;
+}
+
+.link:hover {
+  color: #f4913e;
+}
+
+.Logo > span {
+  font-size: 3rem;
+  color: white;
+}
+
+.allcontainer > section {
+  margin-top: 4rem;
+  padding: 1rem;
+}
+
+.calc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.calc-header {
+  margin-top: 5.5rem;
+}
+
+.quotes-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+  margin-top: 10%;
+}
+
+.quotation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #0859fd;
+  padding: 1rem;
+  min-height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+}
+
+.allmain {
+  position: relative;
+  height: 100vh;
+  background-color: #b8e7ff;
 }
