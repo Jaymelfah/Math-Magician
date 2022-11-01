@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 - To clone the project on your machine: Type `git clone https://github.com/Jaymelfah/Math-Magician.git`.
-
+- Run `npm install` in your terminal
 - To run the project on  live server:
 `npm run start`
 
