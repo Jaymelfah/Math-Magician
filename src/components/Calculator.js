@@ -21,7 +21,7 @@ const Calculator = () => {
         </div>
         <div className="container">
           <div className="display flex">
-            <span>
+            <span role="none">
               { currstate.total }
               { currstate.operation }
               { currstate.next }
