@@ -12,4 +12,18 @@ describe('Test for Calculator', () => {
     fireEvent.click(one);
     expect(answer.textContent).toBe('61');
   });
+
+  test('check if addition works correctly', () => {
+    render(<Calculator />);
+    const one = screen.getByText('1');
+    const two = screen.getByText('2');
+    const add = screen.getByText('+');
+    const equals = screen.getByText('=');
+    const answer = screen.getByRole('none');
+    fireEvent.click(one);
+    fireEvent.click(add);
+    fireEvent.click(two);
+    fireEvent.click(equals);
+    expect(answer.textContent).toBe('3');
+  });
 });
