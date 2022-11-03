@@ -17,6 +17,9 @@ hooks.
 - Create React App
 - JSX syntax
 
+## Live Demo
+Please use this [link](https://chic-blini-714a0e.netlify.app/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
